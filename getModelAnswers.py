@@ -41,7 +41,7 @@ for article in articlesRows:
 
 ######################################
 ############ use LLama ###############
-os.environ["OPENROUTER_API_KEY"] ="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"
+os.environ["OPENROUTER_API_KEY"] =""
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
     api_key=os.getenv("OPENROUTER_API_KEY"),
